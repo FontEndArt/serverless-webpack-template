@@ -19,7 +19,8 @@ serverless-webpack-express-starter 模板是基于express-starter基础webpack�
 前提
 ```bash
 # 安装 Serverless Framework
-npm install -g serverless
+# npm install -g serverless
+npm install -g serverless-cloud-framework
 ```
 
 项目内

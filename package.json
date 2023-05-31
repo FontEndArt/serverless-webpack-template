@@ -7,7 +7,7 @@
     "start": "./node_modules/.bin/nodemon ./bin/www",
     "build": "webpack --progress",
     "preview": "webpack --progress && cross-env mode=preview npm run start",
-    "deploy": "npm run build && sls deploy"
+    "deploy": "npm run build && scf deploy"
   },
   "author": "xlzy520",
   "license": "MIT",

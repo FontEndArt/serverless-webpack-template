@@ -20,7 +20,7 @@ name: express-starter # [必选]组件实例名称
 inputs:
   src: # 执行目录
     src: ./dist
-  region: ap-guangzhou # 部署目标地区。 更多参考 https://cloud.tencent.com/document/api/583/17238#.E5.9C.B0.E5.9F.9F.E5.88.97.E8.A1.A8
+  region: ap-beijing # 部署目标地区。 更多参考 https://cloud.tencent.com/document/api/583/17238#.E5.9C.B0.E5.9F.9F.E5.88.97.E8.A1.A8
   runtime: Nodejs10.15 # 运行环境。[Nodejs10.15, Nodejs12.16]
   functionName: add-fav-resource-1
   entryFile: pro.js
